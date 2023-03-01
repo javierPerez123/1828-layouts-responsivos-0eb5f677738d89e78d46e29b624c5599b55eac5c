@@ -1,0 +1,36 @@
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.lista__rodapie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+@media screen and (min-width:768px) {
+    .lista {
+        padding-top: 1.875rem;
+        padding-bottom: 3.625rem;
+    }
+
+    .lista__rodapie {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .lista {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .lista__rodapie {
+        padding-bottom: 0;
+        margin-left: 2rem;
+    }
+}

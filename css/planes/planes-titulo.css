@@ -1,0 +1,17 @@
+.planes__titulo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4F4C4C;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:1024px) {
+    .planes__titulo {
+        width: 100%;
+    }
+}

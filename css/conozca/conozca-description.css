@@ -1,0 +1,15 @@
+.conozca__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    margin: 1.875rem 1.5625rem;
+}
+
+@media screen and (min-width:1024px) {
+    .conozca__description {
+        margin: 2.55rem 0;
+        width: calc(100% - 23rem);
+    }
+}

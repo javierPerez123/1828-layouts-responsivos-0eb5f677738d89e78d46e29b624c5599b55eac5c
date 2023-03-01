@@ -1,0 +1,15 @@
+.rodapie__lista {
+    width: calc(100% - 5.8rem);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.2rem;
+}
+
+@media screen and (min-width:1024px) {
+    .rodapie__lista {
+        width: 25%;
+        margin-right: 1.2rem;
+        margin-bottom: 0;
+
+    }
+}

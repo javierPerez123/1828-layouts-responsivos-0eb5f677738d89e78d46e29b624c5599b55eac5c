@@ -1,0 +1,27 @@
+.box__imagen {
+    margin-top: 2rem;
+    margin-bottom: 0.625rem;
+    width: 100%;
+    height: 50vw;
+}
+
+.box__imagen-logotipo {
+    background: url('../../../img/empezando-a-crear-logo.png') no-repeat center / cover;
+}
+
+.box__imagen-fotografia {
+    background: url('../../../img/sugestiones-fotografias.png') no-repeat center / cover;
+}
+
+@media screen and (min-width:768px) {
+    .box__imagen {
+        width: calc(100% - 6.375rem);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .box__imagen {
+        width: calc(100% - 28rem);
+        height: 30vw;
+    }
+}

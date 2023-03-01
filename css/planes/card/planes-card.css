@@ -1,0 +1,36 @@
+.planes__card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3125rem;
+    margin-bottom: 2rem;
+    background: #ffffff;
+}
+
+.planes__card-start {
+    color: #035A76;
+}
+
+.planes__card-ultra {
+    color: #690F8E;
+    margin-bottom: 0;
+}
+
+.planes__card-mega {
+    color: #B00024;
+    order: 5;
+}
+
+@media screen and (min-width:1024px) {
+    .planes__card {
+        width: 19rem;
+        margin: 0;
+    }
+
+    .planes__card-start {
+        align-self: flex-end;
+    }
+
+    .planes__card-mega {
+        align-self: flex-end;
+    }
+}

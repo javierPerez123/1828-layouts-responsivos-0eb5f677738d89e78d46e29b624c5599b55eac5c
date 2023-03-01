@@ -1,0 +1,21 @@
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00161C;
+    border-bottom: 1px solid rgba(16, 61, 74, 1);
+}
+
+@media screen and (min-width:1024px) {
+    .cabecera {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/bg-intro.jpg');
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 0;
+    }
+}

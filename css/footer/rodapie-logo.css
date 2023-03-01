@@ -1,0 +1,10 @@
+.rodapie__logo {
+    margin-bottom: 3.125rem;
+}
+
+@media screen and (min-width:1024px) {
+    .rodapie__logo {
+        margin-bottom: 2rem;
+        margin-left: 2.625rem;
+    }
+}

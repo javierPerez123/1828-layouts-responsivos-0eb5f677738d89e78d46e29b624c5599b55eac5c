@@ -1,0 +1,31 @@
+.planes__boton {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.0625rem;
+    text-align: center;
+}
+
+.planes__boton {
+    width: 10.125rem;
+    margin: 0;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+}
+
+.planes__boton-start {
+    color: #035A76;
+    border: 1px solid #035A76;
+}
+
+.planes__boton-mega {
+    color: #B00024;
+    border: 1px solid #B00024;
+}
+
+.planes__boton-ultra {
+    color: #690F8E;
+    border: 1px solid #690F8E;
+}

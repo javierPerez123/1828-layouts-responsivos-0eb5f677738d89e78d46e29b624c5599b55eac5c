@@ -1,0 +1,23 @@
+.sobre__item:nth-child(1) {
+    width: 2.1875rem;
+    height: 2.5625rem;
+    background: url('../../img/android.png') no-repeat center / cover;
+}
+
+.sobre__item:nth-child(2) {
+    width: 3.625rem;
+    height: 2.5625rem;
+    background: url('../../img/blackberry.png') no-repeat center / cover;
+}
+
+.sobre__item:nth-child(3) {
+    width: 2.0625rem;
+    height: 2.5625rem;
+    background: url('../../img/apple.png') no-repeat center / cover;
+}
+
+.sobre__item:nth-child(4) {
+    width: 2.5rem;
+    height: 2.5625rem;
+    background: url('../../img/windowsphone.png') no-repeat center / cover;
+}

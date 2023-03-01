@@ -1,0 +1,14 @@
+.diferencial {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.375rem;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #000000;
+}
+
+@media screen and (min-width:1024px) {
+    .diferencial {
+        margin-top: 1.6875rem;
+    }
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width:1024px) {
+    .sobre__pc {
+        width: 50%;
+        height: 32rem;
+        background: url('/img/sobre-apeperia.png') no-repeat center / cover;
+    }
+}

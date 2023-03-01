@@ -1,0 +1,9 @@
+.box__description {
+    margin: 0 1.25rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1875rem;
+    line-height: 1.625rem;
+    color: #000000;
+}

@@ -1,0 +1,25 @@
+.conozca__boton {
+    background: transparent;
+    width: calc(100% - 1.5rem);
+    padding: 1rem 5rem;
+    margin: 1.8125rem 0.75rem 3rem 0.75rem;
+    border-radius: 0.4rem;
+    border: 1px solid #B72E2E;
+}
+
+.conozca__boton {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width:768px) {
+    .conozca__boton {
+        margin: 0;
+        width: 21.875rem;
+    }
+}

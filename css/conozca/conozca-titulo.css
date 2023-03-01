@@ -1,0 +1,17 @@
+.conozca__titulo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0 2.875rem;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:1024px) {
+    .conozca__titulo {
+        margin: 0;
+        font-size: 3.25rem;
+        line-height: 3.25rem;
+    }
+}

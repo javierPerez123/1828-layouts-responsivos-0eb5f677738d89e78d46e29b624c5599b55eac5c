@@ -1,0 +1,6 @@
+.sobre__lista {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    margin-bottom: 0.125rem;
+}

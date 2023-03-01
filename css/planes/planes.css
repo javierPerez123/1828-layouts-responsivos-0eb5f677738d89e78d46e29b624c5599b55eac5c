@@ -1,0 +1,16 @@
+.planes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(247, 244, 244, 1);
+    padding: 2.8125rem 2.375rem 5rem 2.375rem;
+}
+
+@media screen and (min-width:1024px) {
+    .planes {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}

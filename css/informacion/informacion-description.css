@@ -1,0 +1,23 @@
+.informacion__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #666666;
+}
+
+.informacion__description-resaltado {
+    margin-top: 2.125rem;
+    font-size: 1.5rem;
+    line-height: 2.0625rem;
+    margin-bottom: 3.125rem;
+}
+
+@media screen and (min-width:1024px) {
+    .informacion__description {
+        text-align: justify;
+    }
+
+}

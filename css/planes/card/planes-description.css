@@ -1,0 +1,7 @@
+.planes__description {
+    padding: 1.375rem 2.5rem 1.375rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

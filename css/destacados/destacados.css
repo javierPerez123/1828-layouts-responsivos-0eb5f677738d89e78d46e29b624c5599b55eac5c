@@ -1,0 +1,8 @@
+.destacados {
+    background: rgba(223, 227, 245, 1);
+    padding-top: 2.25rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

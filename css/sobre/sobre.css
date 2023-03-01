@@ -1,0 +1,23 @@
+.sobre {
+    padding: 1.9375rem 1.4375rem 4rem 1.4375rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:1024px) {
+
+    .sobre {
+        width: 100%;
+        flex-direction: row;
+        box-sizing: border-box;
+    }
+
+    .sobre-c-t-p {
+        padding: 0;
+        padding-right: 11rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

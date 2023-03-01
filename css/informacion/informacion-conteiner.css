@@ -1,0 +1,32 @@
+.informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion__conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:1024px) {
+    .informacion__conteiner-institucional {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .informacion__conteiner-articulo {
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .informacion__contenido {
+        margin-left: 2.875rem;
+    }
+}

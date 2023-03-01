@@ -1,0 +1,18 @@
+.informacion__video {
+    width: 100%;
+    margin-bottom: 2.125rem;
+
+}
+
+@media screen and (min-width:768px) {
+    .informacion__video {
+        width: calc(100% - 5.75rem);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .informacion__video {
+        width: 51rem;
+        margin-bottom: 4rem;
+    }
+}
